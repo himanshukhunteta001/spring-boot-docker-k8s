@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-boot-docker-k8s-deployment-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: spring-boot-docker-k8s-deployment-app
+  template:
+    metadata:
+      labels:
+        app: spring-boot-docker-k8s-deployment-app
+    spec:
+      containers:
+        - name: spring-boot-container
+          image:
+          ports:
+            - containerPort: 9999
