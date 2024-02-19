@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.springbootdockerk8S.SpringBootDockerK8SApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.553 s -- in com.springbootdockerk8S.SpringBootDockerK8SApplicationTests
